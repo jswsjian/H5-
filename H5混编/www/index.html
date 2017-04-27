@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>口令验证</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+            <script type="text/javascript" charset="utf-8">
+                //开始验证
+                function verify() {
+                    //获取输入的口令
+                    var password = document.getElementById("pwd").value;
+                    //调用自定义的验证插件
+                    Cordova.exec(successFunction, failFunction, "001",
+                                 "test", [password]);
+                }
+            
+            //验证成功
+            function successFunction(){
+                alert("口令验证成功！");
+            }
+            
+            //验证失败
+            function failFunction(){
+                alert("验证失败：");
+            }
+            </script>
+            <style>
+                * {
+                    font-size:1em;
+                }
+            </style>
+            </head>
+    <body style="padding-top:50px;">
+        <input type="text" id="pwd" >
+        <button onclick="verify();">验证</button>
+    </body>
+</html>

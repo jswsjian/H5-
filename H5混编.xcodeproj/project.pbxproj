@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B80106521EAF524600719F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B80106511EAF524600719F11 /* main.m */; };
+		B80106551EAF524600719F11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B80106541EAF524600719F11 /* AppDelegate.m */; };
+		B80106581EAF524600719F11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80106571EAF524600719F11 /* ViewController.m */; };
+		B801065B1EAF524600719F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80106591EAF524600719F11 /* Main.storyboard */; };
+		B801065D1EAF524600719F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B801065C1EAF524600719F11 /* Assets.xcassets */; };
+		B80106601EAF524600719F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B801065E1EAF524600719F11 /* LaunchScreen.storyboard */; };
+		B80106811EAF526000719F11 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B80106801EAF526000719F11 /* libCordova.a */; };
+		B80106841EAF52D100719F11 /* HJH5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80106831EAF52D100719F11 /* HJH5ViewController.m */; };
+		B80106861EAF534400719F11 /* www in Resources */ = {isa = PBXBuildFile; fileRef = B80106851EAF534400719F11 /* www */; };
+		B80106891EAF535D00719F11 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B80106881EAF535D00719F11 /* README */; };
+		B801068C1EAF560200719F11 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = B801068B1EAF560200719F11 /* config.xml */; };
+		B80106901EAF56F300719F11 /* HJPlugin001.m in Sources */ = {isa = PBXBuildFile; fileRef = B801068F1EAF56F300719F11 /* HJPlugin001.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B801064D1EAF524600719F11 /* H5混编.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H5混编.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80106511EAF524600719F11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B80106531EAF524600719F11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B80106541EAF524600719F11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B80106561EAF524600719F11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B80106571EAF524600719F11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B801065A1EAF524600719F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B801065C1EAF524600719F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B801065F1EAF524600719F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B80106611EAF524600719F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B801066A1EAF526000719F11 /* CDV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDV.h; sourceTree = "<group>"; };
+		B801066B1EAF526000719F11 /* CDVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVAppDelegate.h; sourceTree = "<group>"; };
+		B801066C1EAF526000719F11 /* CDVAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVAvailability.h; sourceTree = "<group>"; };
+		B801066D1EAF526000719F11 /* CDVAvailabilityDeprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVAvailabilityDeprecated.h; sourceTree = "<group>"; };
+		B801066E1EAF526000719F11 /* CDVCommandDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegate.h; sourceTree = "<group>"; };
+		B801066F1EAF526000719F11 /* CDVCommandDelegateImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegateImpl.h; sourceTree = "<group>"; };
+		B80106701EAF526000719F11 /* CDVCommandQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandQueue.h; sourceTree = "<group>"; };
+		B80106711EAF526000719F11 /* CDVConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVConfigParser.h; sourceTree = "<group>"; };
+		B80106721EAF526000719F11 /* CDVInvokedUrlCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVInvokedUrlCommand.h; sourceTree = "<group>"; };
+		B80106731EAF526000719F11 /* CDVPlugin+Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDVPlugin+Resources.h"; sourceTree = "<group>"; };
+		B80106741EAF526000719F11 /* CDVPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPlugin.h; sourceTree = "<group>"; };
+		B80106751EAF526000719F11 /* CDVPluginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPluginResult.h; sourceTree = "<group>"; };
+		B80106761EAF526000719F11 /* CDVScreenOrientationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVScreenOrientationDelegate.h; sourceTree = "<group>"; };
+		B80106771EAF526000719F11 /* CDVTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVTimer.h; sourceTree = "<group>"; };
+		B80106781EAF526000719F11 /* CDVUIWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVUIWebViewDelegate.h; sourceTree = "<group>"; };
+		B80106791EAF526000719F11 /* CDVURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVURLProtocol.h; sourceTree = "<group>"; };
+		B801067A1EAF526000719F11 /* CDVUserAgentUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVUserAgentUtil.h; sourceTree = "<group>"; };
+		B801067B1EAF526000719F11 /* CDVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVViewController.h; sourceTree = "<group>"; };
+		B801067C1EAF526000719F11 /* CDVWebViewEngineProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVWebViewEngineProtocol.h; sourceTree = "<group>"; };
+		B801067D1EAF526000719F11 /* CDVWhitelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVWhitelist.h; sourceTree = "<group>"; };
+		B801067E1EAF526000719F11 /* NSDictionary+CordovaPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CordovaPreferences.h"; sourceTree = "<group>"; };
+		B801067F1EAF526000719F11 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		B80106801EAF526000719F11 /* libCordova.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCordova.a; sourceTree = "<group>"; };
+		B80106821EAF52D100719F11 /* HJH5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJH5ViewController.h; sourceTree = "<group>"; };
+		B80106831EAF52D100719F11 /* HJH5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJH5ViewController.m; sourceTree = "<group>"; };
+		B80106851EAF534400719F11 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		B80106881EAF535D00719F11 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B801068B1EAF560200719F11 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		B801068E1EAF56F300719F11 /* HJPlugin001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPlugin001.h; sourceTree = "<group>"; };
+		B801068F1EAF56F300719F11 /* HJPlugin001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPlugin001.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B801064A1EAF524600719F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80106811EAF526000719F11 /* libCordova.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B80106441EAF524600719F11 = {
+			isa = PBXGroup;
+			children = (
+				B801064F1EAF524600719F11 /* H5混编 */,
+				B801064E1EAF524600719F11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B801064E1EAF524600719F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B801064D1EAF524600719F11 /* H5混编.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B801064F1EAF524600719F11 /* H5混编 */ = {
+			isa = PBXGroup;
+			children = (
+				B801068B1EAF560200719F11 /* config.xml */,
+				B80106871EAF535D00719F11 /* Plugins */,
+				B80106851EAF534400719F11 /* www */,
+				B80106671EAF526000719F11 /* LibCordova */,
+				B80106531EAF524600719F11 /* AppDelegate.h */,
+				B80106541EAF524600719F11 /* AppDelegate.m */,
+				B80106561EAF524600719F11 /* ViewController.h */,
+				B80106571EAF524600719F11 /* ViewController.m */,
+				B80106821EAF52D100719F11 /* HJH5ViewController.h */,
+				B80106831EAF52D100719F11 /* HJH5ViewController.m */,
+				B80106591EAF524600719F11 /* Main.storyboard */,
+				B801065C1EAF524600719F11 /* Assets.xcassets */,
+				B801065E1EAF524600719F11 /* LaunchScreen.storyboard */,
+				B80106611EAF524600719F11 /* Info.plist */,
+				B80106501EAF524600719F11 /* Supporting Files */,
+			);
+			path = "H5混编";
+			sourceTree = "<group>";
+		};
+		B80106501EAF524600719F11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80106511EAF524600719F11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B80106671EAF526000719F11 /* LibCordova */ = {
+			isa = PBXGroup;
+			children = (
+				B80106681EAF526000719F11 /* include */,
+				B80106801EAF526000719F11 /* libCordova.a */,
+			);
+			path = LibCordova;
+			sourceTree = "<group>";
+		};
+		B80106681EAF526000719F11 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B80106691EAF526000719F11 /* Cordova */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B80106691EAF526000719F11 /* Cordova */ = {
+			isa = PBXGroup;
+			children = (
+				B801066A1EAF526000719F11 /* CDV.h */,
+				B801066B1EAF526000719F11 /* CDVAppDelegate.h */,
+				B801066C1EAF526000719F11 /* CDVAvailability.h */,
+				B801066D1EAF526000719F11 /* CDVAvailabilityDeprecated.h */,
+				B801066E1EAF526000719F11 /* CDVCommandDelegate.h */,
+				B801066F1EAF526000719F11 /* CDVCommandDelegateImpl.h */,
+				B80106701EAF526000719F11 /* CDVCommandQueue.h */,
+				B80106711EAF526000719F11 /* CDVConfigParser.h */,
+				B80106721EAF526000719F11 /* CDVInvokedUrlCommand.h */,
+				B80106731EAF526000719F11 /* CDVPlugin+Resources.h */,
+				B80106741EAF526000719F11 /* CDVPlugin.h */,
+				B80106751EAF526000719F11 /* CDVPluginResult.h */,
+				B80106761EAF526000719F11 /* CDVScreenOrientationDelegate.h */,
+				B80106771EAF526000719F11 /* CDVTimer.h */,
+				B80106781EAF526000719F11 /* CDVUIWebViewDelegate.h */,
+				B80106791EAF526000719F11 /* CDVURLProtocol.h */,
+				B801067A1EAF526000719F11 /* CDVUserAgentUtil.h */,
+				B801067B1EAF526000719F11 /* CDVViewController.h */,
+				B801067C1EAF526000719F11 /* CDVWebViewEngineProtocol.h */,
+				B801067D1EAF526000719F11 /* CDVWhitelist.h */,
+				B801067E1EAF526000719F11 /* NSDictionary+CordovaPreferences.h */,
+				B801067F1EAF526000719F11 /* NSMutableArray+QueueAdditions.h */,
+			);
+			path = Cordova;
+			sourceTree = "<group>";
+		};
+		B80106871EAF535D00719F11 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				B80106881EAF535D00719F11 /* README */,
+				B801068E1EAF56F300719F11 /* HJPlugin001.h */,
+				B801068F1EAF56F300719F11 /* HJPlugin001.m */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B801064C1EAF524600719F11 /* H5混编 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80106641EAF524600719F11 /* Build configuration list for PBXNativeTarget "H5混编" */;
+			buildPhases = (
+				B80106491EAF524600719F11 /* Sources */,
+				B801064A1EAF524600719F11 /* Frameworks */,
+				B801064B1EAF524600719F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "H5混编";
+			productName = "H5混编";
+			productReference = B801064D1EAF524600719F11 /* H5混编.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B80106451EAF524600719F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hj;
+				TargetAttributes = {
+					B801064C1EAF524600719F11 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = ATQLL5U5HK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B80106481EAF524600719F11 /* Build configuration list for PBXProject "H5混编" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B80106441EAF524600719F11;
+			productRefGroup = B801064E1EAF524600719F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B801064C1EAF524600719F11 /* H5混编 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B801064B1EAF524600719F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80106891EAF535D00719F11 /* README in Resources */,
+				B80106861EAF534400719F11 /* www in Resources */,
+				B80106601EAF524600719F11 /* LaunchScreen.storyboard in Resources */,
+				B801068C1EAF560200719F11 /* config.xml in Resources */,
+				B801065D1EAF524600719F11 /* Assets.xcassets in Resources */,
+				B801065B1EAF524600719F11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B80106491EAF524600719F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80106581EAF524600719F11 /* ViewController.m in Sources */,
+				B80106841EAF52D100719F11 /* HJH5ViewController.m in Sources */,
+				B80106901EAF56F300719F11 /* HJPlugin001.m in Sources */,
+				B80106551EAF524600719F11 /* AppDelegate.m in Sources */,
+				B80106521EAF524600719F11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B80106591EAF524600719F11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B801065A1EAF524600719F11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B801065E1EAF524600719F11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B801065F1EAF524600719F11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B80106621EAF524600719F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B80106631EAF524600719F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B80106651EAF524600719F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATQLL5U5HK;
+				INFOPLIST_FILE = "H5混编/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/H5混编/LibCordova",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hj.H5--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B80106661EAF524600719F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATQLL5U5HK;
+				INFOPLIST_FILE = "H5混编/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/H5混编/LibCordova",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hj.H5--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B80106481EAF524600719F11 /* Build configuration list for PBXProject "H5混编" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80106621EAF524600719F11 /* Debug */,
+				B80106631EAF524600719F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80106641EAF524600719F11 /* Build configuration list for PBXNativeTarget "H5混编" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80106651EAF524600719F11 /* Debug */,
+				B80106661EAF524600719F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B80106451EAF524600719F11 /* Project object */;
+}
